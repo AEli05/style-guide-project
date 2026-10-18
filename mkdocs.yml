@@ -55,6 +55,7 @@ nav:
       - Правила Markdown: markdown.md
       - Глоссарий: glossary.md
       - Проверка и чек-лист: review.md
+      - Доступность текста: accessibility.md
   - Примеры:
       - Описание SQL-витрины: examples/datamart.md
       - Отчет по A/B-тесту: examples/ab-test-report.md
