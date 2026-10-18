@@ -1,0 +1,23 @@
+# Настройки markdownlint. Описание правил: https://github.com/DavidAnson/markdownlint
+config:
+  default: true
+  MD013: false          # длину строки не ограничиваем, абзацы пишем одной строкой
+  MD024:
+    siblings_only: true # одинаковые заголовки можно в разных разделах
+  MD004:
+    style: dash         # маркированные списки только через "-"
+  MD029:
+    style: ordered      # нумерация 1. 2. 3.
+  MD046:
+    style: fenced       # код только в блоках с ```
+  MD040: true           # у блока кода должен быть указан язык
+  MD033: false          # разрешаем HTML при необходимости
+  MD041: true           # первая строка файла - заголовок первого уровня
+
+globs:
+  - "docs/**/*.md"
+  - "README.md"
+  - "CONTRIBUTING.md"
+
+ignores:
+  - "site/**"
